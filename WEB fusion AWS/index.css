@@ -1,0 +1,49 @@
+/*HEADER*/
+html{
+    background-color: rgb(214, 214, 214);
+}
+.cabezera{
+    font-style: Arial Black;
+   padding: 10px;
+   font-size: 40px;
+   margin-top: 16PX;
+}
+
+.img1{
+    scale: 60%;
+}
+
+header{
+    flex: content;
+    display: flex;
+    padding: 10px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.801);
+}
+
+.links{
+    margin: 43px;
+    margin-left: 63%;
+}
+
+a{
+    padding: 8px;
+    font-size: 17px;
+}
+
+/*CUERPO*/
+
+
+.flex2{
+    flex: content;
+    display: flex;
+    position: fixed;
+
+}
+
+.header-imagen {
+    background-image: url('./bonzi-buddy-bonzi.gif'); /* asi se le dice que el background sea una imagen, es como insertar imagen pero sin insertarla*/
+    background-repeat: repeat-x; /* con esto pues se hace el patrón para que se repita*/
+    height: 500px; 
+   
+}
